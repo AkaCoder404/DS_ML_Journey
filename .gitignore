@@ -1,0 +1,22 @@
+data/*
+models/*
+
+# Don't include any subfolers with data/
+data/**
+
+# Don't include any checkpoints (.pt and .pth files)
+*.pt
+*.pth
+
+# Don't include any log files
+*.log
+
+# Don't include
+.vscode
+.DS_Store
+
+# Don't upload mp4 files
+*.mp4
+
+# Don't upload slurm files
+*.out
