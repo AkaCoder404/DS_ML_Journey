@@ -1,8 +1,14 @@
 data/*
 models/*
 
+
+# Don't include any subfolders with out/
+out/**
+**/out/**
+
 # Don't include any subfolers with data/
 data/**
+**/data/**
 
 # Don't include any checkpoints (.pt and .pth files)
 *.pt
